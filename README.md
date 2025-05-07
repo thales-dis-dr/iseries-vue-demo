@@ -27,7 +27,9 @@ npm run lint
 - Once reader is saved user can connect to reader and capture an image.  The last page has a "Process" document placeholder for developer to initiate an API call for sending or saving the images to another server.
 
 - There is a code block that needs to be added in order for developer to call an API with the document Images at line:
+```
 [Code Block Here](https://github.com/thales-dis-dr/iseries-vue-demo/blob/master/src/components/AppLayout.vue#L560)
+```
 
 - Note:  This code base was built several years ago and later modified to provide an open source example for development.  It was developed using Node v20.18.3 and Vue 2 if you have compatibility issues please role back to this older version.  You may experience some deprecation warnings when building.  
 
