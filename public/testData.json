@@ -1,0 +1,2805 @@
+{
+    "body": null,
+    "errorMessage": null,
+    "metadata": {
+        "agencyName": "",
+        "analyzed": true,
+        "birthDate": "14/03/1987",
+        "boutiqueName": "",
+        "clientId": "b77f770b-d108-408b-be7e-2aafa591202d",
+        "clientLang": "en-GB",
+        "country": "Sweden",
+        "creationDate": 1615905232319,
+        "cropResult": true,
+        "crosscheckFailuresSize": 0,
+        "currentAge": 34,
+        "currentYear": 2021,
+        "dataIntegrity": {
+            "valueScoreMap": {
+                "Authority": {
+                    "score": 0.0,
+                    "threshold": 0.0,
+                    "value": "POLISMYNDIGHETEN\r\nI STOCKHOLMS LÄN\r\n"
+                },
+                "DateOfBirth": {
+                    "score": 66.0,
+                    "threshold": 100.0,
+                    "value": "14/03/1987"
+                },
+                "DateOfExpiry": {
+                    "score": 100.0,
+                    "threshold": 100.0,
+                    "value": "02/08/2012"
+                },
+                "DateOfIssue": {
+                    "score": 100.0,
+                    "threshold": 0.0,
+                    "value": "02/01/2012"
+                },
+                "DocumentNumber": {
+                    "score": 100.0,
+                    "threshold": 100.0,
+                    "value": "59000005"
+                },
+                "FirstName": {
+                    "score": 100.0,
+                    "threshold": 50.0,
+                    "value": "SVEN"
+                },
+                "Gender": {
+                    "score": 100.0,
+                    "threshold": 0.0,
+                    "value": "Male"
+                },
+                "LastName": {
+                    "score": 100.0,
+                    "threshold": 50.0,
+                    "value": "SPECIMEN"
+                },
+                "PlaceOfBirth": {
+                    "score": 100.0,
+                    "threshold": 0.0,
+                    "value": "STOCKHOLM"
+                }
+            }
+        },
+        "documentNumber": "59000005",
+        "documentType": "Passport",
+        "dpi": null,
+        "duration": "5",
+        "expiredMoreThanFiveYears": true,
+        "expiryDate": "02/08/2012",
+        "externalTransaction": "developerId",
+        "firstName": "SVEN",
+        "frenchPassportExpired": false,
+        "fromEmail": "",
+        "gender": "Male",
+        "identificationActionsResult": [
+            {
+                "Score": 98.0,
+                "TemplateName": "Sweden Electronic Passport 2012",
+                "VerificationId": 5147883,
+                "VerificationName": "VIS Identification"
+            }
+        ],
+        "imageFrontBase64": null,
+        "issuingDateYear": 2012,
+        "markerResults": [
+            {
+                "angle": 0.030205417395957793,
+                "name": "Marker 1",
+                "result": true,
+                "rotationCenterX": 352,
+                "rotationCenterY": 5,
+                "score": 95.44713857210884,
+                "xOffset": 9.967389980309008,
+                "yOffset": -19.601929086078002
+            }
+        ],
+        "nationality": "SWE",
+        "numberMissingFields": 0,
+        "numberOfPositiveVerifications": 46,
+        "overEighteenAtIssueDate": true,
+        "processing": 1615905232319,
+        "processingNode": "Main Server",
+        "processingTries": 0,
+        "requestId": "f7027658-3e96-460d-a8c8-dc3c31b21016",
+        "requestTime": "16/03/21 14:33:46 UTC",
+        "requestTimeLong": "16/03/21 14:33:46 UTC",
+        "requestTimeShort": "16/03/21",
+        "requesterId": "developerId",
+        "responseTime": "16/03/21 14:33:52 UTC",
+        "responseTimeLong": "16/03/21 14:33:52 UTC",
+        "responseTimeShort": "16/03/21",
+        "sectorName": "",
+        "subKey": "VIZCrosscheckFailed",
+        "surname": "SPECIMEN",
+        "templateIds": [],
+        "templateName": "Sweden Electronic Passport 2012",
+        "testMode": false,
+        "totalVerifications": 47,
+        "transactionId": "136dedf7-d5ff-40bc-beb3-1add4c8def89",
+        "verificationAcuantList": [],
+        "verificationCounter": [
+            {
+                "categoryName": "Data Integrity",
+                "counter": 5,
+                "positive": 4
+            },
+            {
+                "categoryName": "Security Features",
+                "counter": 7,
+                "positive": 7
+            },
+            {
+                "categoryName": "Data Format",
+                "counter": 28,
+                "positive": 28
+            },
+            {
+                "categoryName": "OCR Extraction",
+                "counter": 7,
+                "positive": 7
+            }
+        ],
+        "verificationFailList": [],
+        "verificationMrz": [
+            "P<SWESPECIMEN<<SVEN<<<<<<<<<<<<<<<<<<<<<<<<<",
+            "59000005<7SWE8703145M1208021198703142391<<48"
+        ],
+        "verificationMrzSplit": [
+            "P",
+            "<",
+            "S",
+            "W",
+            "E",
+            "S",
+            "P",
+            "E",
+            "C",
+            "I",
+            "M",
+            "E",
+            "N",
+            "<",
+            "<",
+            "S",
+            "V",
+            "E",
+            "N",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "<",
+            "SPLIT",
+            "5",
+            "9",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "5",
+            "<",
+            "7",
+            "S",
+            "W",
+            "E",
+            "8",
+            "7",
+            "0",
+            "3",
+            "1",
+            "4",
+            "5",
+            "M",
+            "1",
+            "2",
+            "0",
+            "8",
+            "0",
+            "2",
+            "1",
+            "1",
+            "9",
+            "8",
+            "7",
+            "0",
+            "3",
+            "1",
+            "4",
+            "2",
+            "3",
+            "9",
+            "1",
+            "<",
+            "<",
+            "4",
+            "8"
+        ],
+        "verificationWarnList": [
+            {
+                "categoryName": "Data Integrity",
+                "mrzText": "14/03/1987",
+                "name": "OCR Birth Date",
+                "ocrImage": "Skip",
+                "ocrText": "H MAR/MAR 87"
+            }
+        ],
+        "withPersonalInformation": true,
+        "yearsBetweenBirthAndExpiry": 25
+    },
+    "pdf": null,
+    "result": {
+        "DocumentInformation": null,
+        "actions": [
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Day present",
+                        "text": "Yes"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Year present",
+                        "text": "Yes"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Month present",
+                        "text": "Yes"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Date",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All the components of the date are present"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0010011"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Complete expiry date check",
+                "verificationType": "MrzIsDateComplete"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Read Check Digit",
+                        "text": "8"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Data used",
+                        "text": "59000005<787031451208021198703142391<<4"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Calculated Check Digit",
+                        "text": "8"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The check digit is correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0050016"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Composite check digit test",
+                "verificationType": "MrzIsCompositeCheckDigitValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Tested field",
+                        "text": "SVEN<<<<<<<<<<<<<<<<<<<<<<<<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The fields are correctly terminated"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0020009"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Correct padding check",
+                "verificationType": "MrzIsCorrectlyPadded"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Check digit read",
+                        "text": "5"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Calculated check digit",
+                        "text": "5"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Field",
+                        "text": "870314"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The check digit is correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Date of birth check digit test",
+                "verificationType": "MrzIsCheckDigitValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Check digit read",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Calculated check digit",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Field",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The check digit is correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Expiry date check digit test",
+                "verificationType": "MrzIsCheckDigitValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "8"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: CompositeCheckDigit",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "5"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: DateOfBirthCheckDigit",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "P<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009765"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: DocumentType",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: ExpiryDate",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: ExpiryDateCheckDigit",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: IssuingState",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: Nationality",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "59000005<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: PassportNumber",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "7"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: PassportNumberCheckDigit",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "198703142391<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: PersonalNumber",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "4"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: PersonalNumberCheckDigit",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "SPECIMEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: PrimaryIdentifier",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "SVEN<<<<<<<<<<<<<<<<<<<<<<<<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: SecondaryIdentifier",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Selected Field",
+                        "text": "M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "All characters are conform to the ICAO standard"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0019952"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "ICAO characters: Sex",
+                "verificationType": "MrzHasInvalidCharacters"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Characters per line read",
+                        "text": "44"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Expected characters per line",
+                        "text": "44"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Number of lines read",
+                        "text": "2"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Expected number of lines",
+                        "text": "2"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The document dimensions are correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009994"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Number of rows and columns",
+                "verificationType": "MrzHasCorrectDimensionsPassport"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Check digit read",
+                        "text": "7"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Calculated check digit",
+                        "text": "7"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Field",
+                        "text": "59000005<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The check digit is correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009998"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Passport number check digit test",
+                "verificationType": "MrzIsCheckDigitValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Type field read",
+                        "text": "P<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Passport"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009969"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Passport type field check",
+                "verificationType": "MrzIsDocumentTypePassport"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Calculated check digit",
+                        "text": "4"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Optional field",
+                        "text": "198703142391<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Read check digit",
+                        "text": "4"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The check digit is correct"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0020009"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Personal number check digit test",
+                "verificationType": "MrzIsOptionalFieldCheckDigitValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Document text",
+                        "text": "870314"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Date read",
+                        "text": "1987 03 14"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The date is valid"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0030019"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Valid date of birth check",
+                "verificationType": "MrzIsDateValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Document text",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Date read",
+                        "text": "2012 08 02"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "The date is valid"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Valid expiry date check",
+                "verificationType": "MrzIsDateValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "State code read",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Sweden"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.000999"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Valid issuing state check",
+                "verificationType": "MrzIsStateCodeValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "State code read",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Sweden"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Valid nationality check",
+                "verificationType": "MrzIsStateCodeValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Sex read",
+                        "text": "M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Sex",
+                        "text": "M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "M (Male)"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009995"
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Format",
+                "verificationName": "Valid sex field check",
+                "verificationType": "MrzIsSexValid"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "870314"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "/ 1234567890ABCDEFGHIJLMNOPQRSTUVWXYZ "
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "H MAR/MAR 87"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Parse Date Format",
+                        "text": "DDMMMYY"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "DateOfBirth"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "8703<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "No"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "870314"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34533"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "29400"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "30334"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3867"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "1.0599968"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 2,
+                "score": 66.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Integrity",
+                "verificationName": "OCR Birth Date",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "59000005<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "0123456789 "
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "59000005"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "DocumentNumber"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "59000005"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "59000005"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "64667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "9133"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "26467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "4134"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.000999"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Integrity",
+                "verificationName": "OCR Document Number",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "/ 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "02 AUG/AUG 12"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Parse Date Format",
+                        "text": "DDMMMYY"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Check Date Of Expiry from VIZ",
+                        "text": "false"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "DateOfExpiry"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "120802"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "44267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "29734"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "4933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 100.0,
+                "verificationCategory": "Data Integrity",
+                "verificationName": "OCR Expiry Date",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "SVEN<<<<<<<<<<<<<<<<<<<<<<<<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": " AÅÄBCDEFGHIJKLMNOÖPQRSTUVWXYZ"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "SVEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "FirstName"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "SVEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "SVEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "19467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "55533"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3600"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0010002"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 50.0,
+                "verificationCategory": "Data Integrity",
+                "verificationName": "OCR First Name",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "SPECIMEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": " AÅÄBCDEFGHIJKLMNOÖPQRSTUVWXYZ"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "SPECIMEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "LastName"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "SPECIMEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "SPECIMEN"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "14267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "61667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3600"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0009991"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 50.0,
+                "verificationCategory": "Data Integrity",
+                "verificationName": "OCR Last Name",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "-/ AÅÄBCDEFGHIJKLMNOÖPQRSTUVWXYZ1234567890\\r\\n"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "POLISMYNDIGHETEN\r\nI STOCKHOLMS LÄN\r\n"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "Authority"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "POLISMYNDIGHETEN\r\nISTOCKHOLMSLÄN\r\n"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "SWE"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "35133"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "55333"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "39200"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "7467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0019997"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 0.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Authority",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "FKM/ "
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "M/M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "Gender"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "M/M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "M"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "34933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "12000"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3600"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0020009"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Gender",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "188 CM"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "Height"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "1234567890 CM"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "188CM"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "93667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "29600"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "17333"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Text extracted"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "1.0640542"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Height",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "02 JAN/JAN 12"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Parse Date Format",
+                        "text": "DDMMMYY"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "DateOfIssue"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "/ ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "120102"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34867"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "39800"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "29133"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Text extracted"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.000999"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Issuing Date",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "SVEMSHJWTUISH"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "Nationality"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": " AÅÄBCDEFGHIJKLMNOÖPQRSTUVWXYZ"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "SVEMSHJWTUISH"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "34200"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "24667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "34867"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3200"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Text extracted"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.3450004"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Nationality",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "MRZ extracted text",
+                        "text": "198703142391<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": "-1234567890 "
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "870314-2391"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "PersonalNumber"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "870314-2391"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "MRZ processed text",
+                        "text": "198703142391<<"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "92667"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "24267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "24267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3666"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.2219939"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 64.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Personal Number",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "OCR Number of Attempts",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Extracted text",
+                        "text": "STOCKHOLM"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Match text",
+                        "text": "Ok"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Label Key",
+                        "text": "PlaceOfBirth"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Custom character set",
+                        "text": " AÅÄBCDEFGHIJKLMNOÖPQRSTUVWXYZ"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Processed extracted text",
+                        "text": "STOCKHOLM"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot X",
+                        "text": "35267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Y",
+                        "text": "50333"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Width",
+                        "text": "44666"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Hotspot Height",
+                        "text": "3934"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Comments",
+                        "text": "Text extracted"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0010043"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "OCR Output Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 0.0,
+                "verificationCategory": "OCR Extraction",
+                "verificationName": "OCR Extract Place Of Birth",
+                "verificationType": "DataIntegrity"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "PositionX",
+                        "text": "-643"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "PositionY",
+                        "text": "-10"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Angle",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Hotspot type",
+                        "text": "InfraRed"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern X",
+                        "text": "9467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Y",
+                        "text": "68200"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Width",
+                        "text": "2666"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Height",
+                        "text": "3133"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Hotspot type",
+                        "text": "InfraRed"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area X",
+                        "text": "4879"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Y",
+                        "text": "65439"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Width",
+                        "text": "116172"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Height",
+                        "text": "16042"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0319995"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "ResultImage",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Expected Pattern",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 99.0,
+                "threshold": 75.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "IR Mrz Check",
+                "verificationType": "MatchModel"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "PositionX",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "PositionY",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Angle",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Image Hotspot type",
+                        "text": "InfraRed"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Image X",
+                        "text": "3000"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Image Y",
+                        "text": "58267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Image Width",
+                        "text": "33400"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Image Height",
+                        "text": "7400"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern X",
+                        "text": "12767"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Y",
+                        "text": "63099"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Width",
+                        "text": "23996"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Height",
+                        "text": "4746"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0390007"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "ResultImage",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern must be absent",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 65.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "IR Vis Background Absence",
+                "verificationType": "MatchModelAbsence"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Color Band Difference",
+                        "text": "9"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region X",
+                        "text": "70267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Y",
+                        "text": "27467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Width",
+                        "text": "19000"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Height",
+                        "text": "18666"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region X",
+                        "text": "70267"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Y",
+                        "text": "27467"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Width",
+                        "text": "19000"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Height",
+                        "text": "18666"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0029995"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Original Image",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 97.0,
+                "threshold": 60.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "UV Grid Luminance ",
+                "verificationType": "ImagingActionMatchColorBand"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Color Band Difference",
+                        "text": "1"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region X",
+                        "text": "4879"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Y",
+                        "text": "64503"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Width",
+                        "text": "116440"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Height",
+                        "text": "16911"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region X",
+                        "text": "4879"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Y",
+                        "text": "64503"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Width",
+                        "text": "116440"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Height",
+                        "text": "16911"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0150032"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Original Image",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 100.0,
+                "threshold": 55.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "UV Mrz Replace",
+                "verificationType": "ImagingActionMatchColorBand"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Color Band Difference",
+                        "text": "7"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region X",
+                        "text": "1136"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Y",
+                        "text": "20454"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Width",
+                        "text": "31884"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Height",
+                        "text": "41375"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region X",
+                        "text": "1136"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Y",
+                        "text": "20454"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Width",
+                        "text": "31884"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Height",
+                        "text": "41375"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0100004"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Original Image",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 98.0,
+                "threshold": 55.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "UV Photo Replace",
+                "verificationType": "ImagingActionMatchColorBand"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "Color Band Difference",
+                        "text": "8"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region X",
+                        "text": "33622"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Y",
+                        "text": "8155"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Width",
+                        "text": "89568"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Region Height",
+                        "text": "55345"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Hotspot type",
+                        "text": "UltraViolet"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region X",
+                        "text": "33622"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Y",
+                        "text": "8155"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Width",
+                        "text": "89568"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Region Height",
+                        "text": "55345"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.03803"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Original Image",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Target Image",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 97.0,
+                "threshold": 55.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "UV Viz Replace",
+                "verificationType": "ImagingActionMatchColorBand"
+            },
+            {
+                "outputs": [
+                    {
+                        "base64Image": null,
+                        "name": "PositionX",
+                        "text": "-98"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "PositionY",
+                        "text": "-79"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Angle",
+                        "text": "0"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern X",
+                        "text": "93867"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Y",
+                        "text": "34867"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Width",
+                        "text": "17800"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Pattern Height",
+                        "text": "15600"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Hotspot type",
+                        "text": "Visual"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area X",
+                        "text": "81933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Y",
+                        "text": "23933"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Width",
+                        "text": "39734"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Search area Height",
+                        "text": "37934"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Time",
+                        "text": "0.0330063"
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "ResultImage",
+                        "text": null
+                    },
+                    {
+                        "base64Image": null,
+                        "name": "Expected Pattern",
+                        "text": null
+                    }
+                ],
+                "resultValue": 0,
+                "score": 98.0,
+                "threshold": 60.0,
+                "verificationCategory": "Security Features",
+                "verificationName": "VIS Hologram Check",
+                "verificationType": "MatchModel"
+            }
+        ],
+        "birthDate": "14/03/1987",
+        "captureTime": null,
+        "channel": "defaultL2",
+        "correlationId": "d9b72f0d-ad2c-467e-8bee-c592bd0d53e7",
+        "country": "Sweden",
+        "cropResult": true,
+        "croppingTime": null,
+        "documentDimensions": null,
+        "documentNumber": "59000005",
+        "documentType": "Passport",
+        "dvTime": 3255,
+        "endTime": null,
+        "exception": null,
+        "expiryDate": "02/08/2012",
+        "externalData": {},
+        "firstName": "SVEN",
+        "gender": "Male",
+        "identificationActionsResult": [
+            {
+                "Score": 98.0,
+                "TemplateName": "Sweden Electronic Passport 2012",
+                "VerificationId": 5147883,
+                "VerificationName": "VIS Identification"
+            }
+        ],
+        "identificationTime": 1268,
+        "issuingDate": "02/01/2012",
+        "markerResults": [
+            {
+                "angle": 0.030205417395957793,
+                "name": "Marker 1",
+                "result": true,
+                "rotationCenterX": 352,
+                "rotationCenterY": 5,
+                "score": 95.44713857210884,
+                "xOffset": 9.967389980309008,
+                "yOffset": -19.601929086078002
+            }
+        ],
+        "minimumResolutionFailed": false,
+        "missingPage": false,
+        "mrzExtractionTime": null,
+        "mrzTextFields": {
+            "DateOfBirth": "870314",
+            "DateOfExpiry": "120802",
+            "DocumentNumber": "59000005",
+            "DocumentType": "Passport",
+            "FirstName": "SVEN",
+            "IssuingState": "SWE",
+            "LastName": "SPECIMEN",
+            "MrzRawData": "P<SWESPECIMEN<<SVEN<<<<<<<<<<<<<<<<<<<<<<<<<,59000005<7SWE8703145M1208021198703142391<<48",
+            "Nationality": "SWE",
+            "OptionalData": "198703142391",
+            "Sex": "M"
+        },
+        "nationality": "SWE",
+        "numberImagesProcessed": null,
+        "ocrTextFields": {
+            "Authority": "POLISMYNDIGHETEN\r\nI STOCKHOLMS LÄN\r\n",
+            "DateOfBirth": "8703<<",
+            "DateOfExpiry": "120802",
+            "DateOfIssue": "120102",
+            "DocumentNumber": "59000005",
+            "FirstName": "SVEN",
+            "Gender": "M/M",
+            "Height": "188 CM",
+            "LastName": "SPECIMEN",
+            "Nationality": "SVEMSHJWTUISH",
+            "PersonalNumber": "870314-2391",
+            "PlaceOfBirth": "STOCKHOLM"
+        },
+        "pages": [
+            {
+                "imageMetadata": {},
+                "images": {},
+                "mrz": [
+                    "P<SWESPECIMEN<<SVEN<<<<<<<<<<<<<<<<<<<<<<<<<",
+                    "59000005<7SWE8703145M1208021198703142391<<48"
+                ],
+                "part": "FrontPage"
+            }
+        ],
+        "portrait": "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",
+        "relatedTransactionId": null,
+        "responseTime": 1615905232584,
+        "responseType": ".AnalyzedResponse",
+        "startTime": null,
+        "subKey": "VIZCrosscheckFailed",
+        "surname": "SPECIMEN",
+        "templateKey": "PASSPORT_SWE_d0fbcf25-3163-4970-9b6b-aa796ec8704c",
+        "templateName": "Sweden Electronic Passport 2012",
+        "templateRepositoryVersion": "1607087256551",
+        "transactionId": "136dedf7-d5ff-40bc-beb3-1add4c8def89",
+        "verificationTime": 5134,
+        "workstation": null
+    },
+    "subject": null,
+    "times": {
+        "creationDate": "2021-03-16T14:33:46.975",
+        "finishDate": "2021-03-16T14:33:52.553",
+        "processingTime": 5578
+    }
+}
